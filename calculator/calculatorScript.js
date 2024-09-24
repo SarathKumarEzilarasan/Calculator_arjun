@@ -211,3 +211,4 @@ function addData(e){
         alert("Only number are allowed");
     }
 }
+

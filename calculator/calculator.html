@@ -16,8 +16,10 @@
         html,
         body {
             height: 100%;
-            padding: auto;
+            padding: 10px;
         }
+
+        
 
         #outer-container {
             display: flex;
@@ -26,6 +28,7 @@
             width: 100%;
             height: 100%;
             box-sizing: border-box;
+            
             
            
 
@@ -38,6 +41,7 @@
             width: 100%;
             height: 100%;
             background-color: darkslategray;
+            border-radius: 20px;
 
         }
 
@@ -67,30 +71,37 @@
             width: 100%;
             border-radius: 15px;
             box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.485);
-            background-color: gray;
+            background-color: blanchedalmond;
             color: black;
 
         }
 
-
+        
 
         button:active {
             box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.485);
-            background-color: ivory;
+            background-color: rgba(255, 255, 240, 0.627);
         }
 
         .calc-display {
             height: 80px;
             text-align: center;
             font-size: 45px;
-
+            height: 100px;
             display: flex;
             align-items: center;
             justify-content: flex-end;
             border: 3px solid black;
             padding: 0px 25px;
+            overflow: hidden;
+            border-radius: 50px;
+            margin: 8px 0px;
+            background-color: whitesmoke;
 
         }
+
+
+        
 
         .calc-btns:first-child {
             color: red;
